@@ -1,3 +1,5 @@
+## Self-Healing
+
 Fluxo de automação e autocura (Self-Healing) com **Agentes AI** no GitHub. Guia dividindo no cenário **Pessoal (KIND Local)** e em uma **Organização**.
 
 ---
