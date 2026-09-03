@@ -1,10 +1,10 @@
-Para construir esse fluxo de automação e autocura (Self-Healing) com **Agentes AI** no GitHub, estruturei o guia dividindo o que é aplicável no seu cenário **Pessoal (KIND Local)** e como seria na **Organização**.
+Fluxo de automação e autocura (Self-Healing) com **Agentes AI** no GitHub. Guia dividindo no cenário **Pessoal (KIND Local)** e em uma **Organização**.
 
 ---
 
 **Diferenças: Cenário de Estudo (Pessoal) vs. Real (Organização)**
 
-| Funcionalidade | Cenário Estudo (Seu teste atual) | Cenário Real (Organização) |
+| Funcionalidade | Cenário Estudo (Local) | Cenário Real (Organização) |
 | --- | --- | --- |
 | **Cluster Kubernetes** | **KIND (Kubernetes in Docker)** rodando localmente na sua máquina. | Cluster gerenciado na nuvem (**EKS, GKE, AKS**). |
 | **Acesso ao Cluster** | O GitHub Actions não alcança seu `localhost` diretamente sem um túnel (ex: `ngrok`) ou um **Runner Auto-hospedado (Self-Hosted Runner)** rodando localmente. | O GitHub Actions conecta via **OIDC (OpenID Connect)** e IP público seguro/VPN do cluster cloud. |
